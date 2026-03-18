@@ -1,20 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <meta property="og:title" content="やばいこれ…">
 <meta property="og:image" content="https://kuro101027.github.io/cuddly-waddle/IMG_9444.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 
+<style>
+body {
+  margin: 0;
+  font-family: -apple-system;
+  background: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  background-image: url('https://kuro101027.github.io/cuddly-waddle/IMG_9444.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  border-radius: 999px;
+  background: linear-gradient(90deg,#6a85ff,#b06aff);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
+
 </head>
 
 <body>
 
-<h1>やばいこれ…</h1>
+<div class="card">
+  <div class="image"></div>
 
-<a href="https://lite.tiktok.com/t/ZS9RjmnppWVYu-C1u4m/">
-続きを見る
-</a>
+  <div class="content">
+    <div class="title">【速報】〇〇が話題に</div>
+
+    <a class="button" href="https://lite.tiktok.com/t/ZS9RjmnppWVYu-C1u4m/">
+      → 記事の続きを読む
+    </a>
+  </div>
+</div>
 
 </body>
 </html>
